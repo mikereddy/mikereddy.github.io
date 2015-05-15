@@ -363,7 +363,7 @@ ul.off-canvas-list li a:hover {
 	font-weight: 400; 
 }
 
-.resume-edu h3, .resume-exp h3 {
+.resume-section-header h3 {
 	margin-top: 20px;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif; 
@@ -375,152 +375,18 @@ ul.off-canvas-list li a:hover {
 	text-align: center;
 }
 
-.job-name h5, .job-name h4, .job-desc p, .school-desc p, .school-name h5, .school-name h4 {
+.resume-header h5, h4, p, .resume-desc p {
 	font-family: 'Lato', sans-serif; 
 	font-weight: 300; 
 }
-
-.job-name strong, .school-name strong {
+.resume-header strong {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
 
 /* Borders */
-.resume-name, .resume-edu, .resume-exp {border-bottom: 1px solid #f7f4ef;}
+.resume-section-header, .resume-name {border-bottom: 1px solid #f7f4ef;}
 
 /* Margins & Padding */
-.resume-about, .resume-edu-desc, .resume-exp, .resume-edu {margin: 0px 15px 0px 15px;}
-.job-desc ul {padding: 0px 0px 20px 30px;}
-.school-desc ul {padding: 10px 0px 0px 20px;}
-
-
-
-
-
-
-
-
-
-/* Photo Banner */
-
-.photo-wall {
-	background: black;
-	margin: 5px auto;
-}
-
-.container-top, .container-mid, .container-bottom {
-    width: 100%;
-    overflow: hidden;
-}
-
-.container-top {
-	padding-bottom: 5px;
-}
-
-.container-bottom {
-	padding-bottom: 10px;
-}
-
-.photobanner {
-    height: 233px;
-    width: 3550px;
-    font-size: 0;
-    margin-bottom: 5px;
-}
-
-.photobanner img {
-	margin-right: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	height: 233px;
-	width: 350px;
-	border: 2px solid white;
-	-webkit-transition: all 0.5s ease;
-       -moz-transition: all 0.5s ease;
-         -o-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-}
-
- 
-.photobanner img:hover {
-    cursor: pointer;
-    /*opacity: 0.3;*/
-	  -webkit-filter: blur(5px);
-	  -moz-filter: blur(5px);
-	  -o-filter: blur(5px);
-	  -ms-filter: blur(5px);
-	  filter: blur(5px);
- 
-    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-       -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-            box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-}
-
-
-/*keyframe animations*/
-.first {
-    -webkit-animation: bannermove 30s linear infinite;
-       -moz-animation: bannermove 30s linear infinite;
-        -ms-animation: bannermove 30s linear infinite;
-         -o-animation: bannermove 30s linear infinite;
-            animation: bannermove 30s linear infinite;
-}
- 
-@keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-moz-keyframes bannermove {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-ms-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-o-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
-
-.second {
-    -webkit-animation: bannermoves 30s linear infinite;
-       -moz-animation: bannermoves 30s linear infinite;
-        -ms-animation: bannermoves 30s linear infinite;
-         -o-animation: bannermoves 30s linear infinite;
-            animation: bannermoves 30s linear infinite;
-}
- 
-@keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-moz-keyframes bannermoves {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-webkit-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-ms-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-o-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
+.resume-section-header {margin: 0px 15px 0px 15px;}
+.resume-desc ul {padding-left: 30px;}
