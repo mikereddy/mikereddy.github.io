@@ -164,6 +164,7 @@ ul.off-canvas-list li a:hover {
 .photo-grid img {
 	border: 2px solid black;
 	width: 100%;
+	min-height: 270px;
 }
 
 .full-screen-header img {
