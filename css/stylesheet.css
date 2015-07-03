@@ -33,6 +33,10 @@ body {
 	color: black;
 }
 
+.tab-bar-section.right {
+	text-align: right;
+}
+
 .left-off-canvas-menu {
 	background-color: white;
 }
@@ -76,17 +80,6 @@ ul.off-canvas-list li a:hover {
 	border: none;
 }
 
-@media screen and (max-width: 640px) {
-	.tab-bar-section .fi-social-facebook, 
-	.tab-bar-section .fi-social-twitter, 
-	.tab-bar-section .fi-social-linkedin, 
-	.tab-bar-section .fi-social-instagram, 
-	.tab-bar-section .fi-social-github, 
-	.tab-bar-section .fi-social-youtube {
-		visibility: hidden;
-		color: black;
-	}
-}
 
 .fi-social-facebook, 
 .fi-social-twitter, 
