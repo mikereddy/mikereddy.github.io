@@ -251,7 +251,7 @@ ul.off-canvas-list li a:hover {
 }
 
 .webdesign img, .photography img {
-min-height: 250px;
+height: 200px;
  width: 100%;
  overflow: hidden;
 	border: 2px solid black;
