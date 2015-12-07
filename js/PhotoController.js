@@ -52,22 +52,6 @@ app.controller('PhotoController', ['$scope', function($scope) {
       small: 'img/photography/showa-kinen-kouen-small-4.jpg'
     },
     {
-      large: 'img/photography/showa-kinen-kouen-large-2.jpg',
-      small: 'img/photography/showa-kinen-kouen-small-2.jpg'
-    },
-    {
-      large: 'img/photography/showa-kinen-kouen-large-5.jpg',
-      small: 'img/photography/showa-kinen-kouen-small-5.jpg'
-    },
-    {
-      large: 'img/photography/enoshima-large-2.jpg',
-      small: 'img/photography/enoshima-small-2.jpg'
-    },
-    {
-      large: 'img/photography/seijin-large-7.jpg',
-      small: 'img/photography/seijin-small-7.jpg'
-    },
-    {
       large: 'img/photography/misc-large-1.jpg',
       small: 'img/photography/misc-small-1.jpg'
     },
@@ -135,7 +119,7 @@ app.controller('PhotoController', ['$scope', function($scope) {
       large: 'img/photography/illumination-large-9.jpg',
       small: 'img/photography/illumination-small-9.jpg'
     },
-{
+    {
       large: 'img/photography/illumination-large-10.jpg',
       small: 'img/photography/illumination-small-10.jpg'
     },   
@@ -143,7 +127,7 @@ app.controller('PhotoController', ['$scope', function($scope) {
       large: 'img/photography/illumination-large-12.jpg',
       small: 'img/photography/illumination-small-12.jpg'
     },
-{
+    {
       large: 'img/photography/illumination-large-13.jpg',
       small: 'img/photography/illumination-small-13.jpg'
     },    {
@@ -152,4 +136,5 @@ app.controller('PhotoController', ['$scope', function($scope) {
     }
 
   ];
+
 }]);
